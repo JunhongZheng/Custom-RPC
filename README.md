@@ -4,8 +4,6 @@
 
  [Custom_RPC](https://github.com/JunhongZheng/Custom_RPC) 是一款基于 Netty+Kyro+Zookeeper 实现的 RPC 框架。
 
-**我们先从一个基本的 RPC 框架设计思路说起！**
-
 ### 项目基本情况和优化点
 
 最初的是时候，我是基于传统的 **BIO** 的方式 **Socket** 进行网络传输，然后利用 **JDK 自带的序列化机制** 来实现这个 RPC 框架的。后面，我对原始版本进行了优化，已完成的优化点和可以完成的优化点我都列在了下面 👇。
